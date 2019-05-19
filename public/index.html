@@ -5,12 +5,24 @@
   <title>Trip Planner</title>
   <link rel="stylesheet" href="./style.css">
   </link>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v[0.54.0]/mapbox-gl.css' rel='stylesheet' />
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css' rel='stylesheet'>
+  </link>
   <script src="./bundle.js" defer></script>
 </head>
 
 <body>
-  <div id="map"></div>
+  <nav>
+    <button id="home-btn">Home</button>
+    <button id="work-btn">Work</button>
+  </nav>
+  <div id="map-container">
+
+    <div id="map"></div>
+    <div id="attractions-container">
+      <div class="attractions-container-inner-box">box1</div>
+      <div class="attractions-container-inner-box">box2</div>
+    </div>
+  </div>
 </body>
 
 </html>

@@ -11,4 +11,5 @@ const map = new mapboxgl.Map({
   style: 'mapbox://styles/mapbox/streets-v10', // mapbox has lots of different map styles available.
 });
 
-buildMarker('activity', [-74.009, 40.705], map); //full stack hq
+buildMarker('activity', [-74.009, 40.705], map);
+buildMarker('hotel', [-74.066486, 40.730968], map);
